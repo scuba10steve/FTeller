@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8becd33-8409-4ef9-8792-8de36e9c1e7c" name="Default" comment="Added empty structure&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/lib/python2.5/site-packages/SiteEgg.egg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/markupsafe/_speedups.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/console.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/less.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/source.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/ubuntu.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/fteller.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.playground" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CONTRIB.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/PKG-INFO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/SOURCES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/dependency_links.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/installed-files.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/not-zip-safe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/requires.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/entry_points.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/PKG-INFO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/SOURCES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/dependency_links.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/installed-files.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/not-zip-safe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/_compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/blueprints.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/ctx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/debughelpers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/ext/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/exthook.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/globals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/helpers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/json.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/logging.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/module.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/sessions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/signals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/templating.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/appctx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/basic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/blueprints.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/deprecations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/examples.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/ext.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/helpers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/reqctx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/signals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/subclassing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/_macro.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/context_template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/escaping_template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/mail.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/nested/nested.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/simple_template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/template_filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templates/template_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templating.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/apps/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/apps/admin/static/css/test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/apps/admin/static/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/config_module_app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/config_package_app/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flask_broken/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flask_broken/b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flask_newext_package/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flask_newext_package/submodule.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flask_newext_simple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flaskext/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flaskext/oldext_package/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flaskext/oldext_package/submodule.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flaskext/oldext_simple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/importerror.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/lib/python2.5/site-packages/site_app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/lib/python2.5/site-packages/site_package/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/main_app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/apps/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/apps/admin/static/css/test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/apps/admin/static/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/apps/admin/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/moduleapp/apps/frontend/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/path/installed_package/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/subdomaintestmodule/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/subdomaintestmodule/static/hello.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/testing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/testsuite/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flask/wrappers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/PKG-INFO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/SOURCES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/dependency_links.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/installed-files.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/not-zip-safe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itsdangerous.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/_compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/_stringdefs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/bccache.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/compiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/constants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/debug.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/defaults.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/environment.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/ext.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/filters.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/lexer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/loaders.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/meta.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/nodes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/optimizer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/parser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/runtime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/sandbox.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jinja2/visitor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/markupsafe/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/markupsafe/_compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/markupsafe/_constants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/markupsafe/_native.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/markupsafe/_speedups.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/markupsafe/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/_compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/_internal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/_reloader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/atom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/cache.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/fixers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/iterio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/jsrouting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/limiter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/lint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/profiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/securecookie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/sessions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/testtools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/wrappers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/datastructures.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/console.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/repr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/FONT_LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/debugger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/shared/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/tbtools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/filesystem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/formparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/http.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/local.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/posixemulation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/routing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/script.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/security.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/serving.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/testapp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/useragents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/wrappers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/werkzeug/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+    </list>
+    <ignored path="fteller.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="fteller" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <marker date="1461812095652" expanded="true" signature="1360:1367" placeholder="f" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.yaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fteller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fteller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fteller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="appengine_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appengine_config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.appengine_config" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.appengine_config" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8becd33-8409-4ef9-8792-8de36e9c1e7c" name="Default" comment="" />
+      <created>1461810877845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1461810877845</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5015625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Added empty structure&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added empty structure&#10;" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461812095652" expanded="true" signature="1360:1367" placeholder="f" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.playground">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appengine_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <marker date="1461812095652" expanded="true" signature="1360:1367" placeholder="f" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
