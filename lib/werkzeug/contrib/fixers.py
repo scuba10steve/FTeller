@@ -21,10 +21,10 @@ try:
 except ImportError:
     from urllib.parse import unquote
 
-from werkzeug.datastructures import Headers, ResponseCacheControl
 from werkzeug.http import parse_options_header, parse_cache_control_header, \
     parse_set_header
 from werkzeug.useragents import UserAgent
+from werkzeug.datastructures import Headers, ResponseCacheControl
 
 
 class CGIRootFix(object):

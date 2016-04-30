@@ -19,9 +19,8 @@
     :copyright: (c) 2011 by Armin Ronacher.
     :license: BSD, see LICENSE for more details.
 """
-import os
 import sys
-
+import os
 from ._compat import reraise
 
 

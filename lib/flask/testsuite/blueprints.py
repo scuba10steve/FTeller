@@ -9,15 +9,15 @@
     :license: BSD, see LICENSE for more details.
 """
 
+import flask
 import unittest
 import warnings
-
-import flask
-from flask._compat import text_type
 from flask.testsuite import FlaskTestCase, emits_module_deprecation_warning
-from jinja2 import TemplateNotFound
+from flask._compat import text_type
 from werkzeug.exceptions import NotFound
 from werkzeug.http import parse_cache_control_header
+from jinja2 import TemplateNotFound
+
 
 # import moduleapp here because it uses deprecated features and we don't
 # want to see the warnings

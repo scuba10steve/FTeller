@@ -9,14 +9,13 @@
     :license: BSD, see LICENSE for more details.
 """
 import posixpath
-
 from jinja2 import BaseLoader, Environment as BaseEnvironment, \
      TemplateNotFound
 
-from ._compat import itervalues, iteritems
 from .globals import _request_ctx_stack, _app_ctx_stack
-from .module import blueprint_is_module
 from .signals import template_rendered
+from .module import blueprint_is_module
+from ._compat import itervalues, iteritems
 
 
 def _default_template_ctx_processor():

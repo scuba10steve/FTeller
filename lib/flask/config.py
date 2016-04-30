@@ -9,12 +9,11 @@
     :license: BSD, see LICENSE for more details.
 """
 
-import errno
 import imp
 import os
+import errno
 
 from werkzeug.utils import import_string
-
 from ._compat import string_types
 
 

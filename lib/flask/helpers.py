@@ -9,17 +9,16 @@
     :license: BSD, see LICENSE for more details.
 """
 
-import mimetypes
 import os
+import sys
 import pkgutil
 import posixpath
-import sys
-from functools import update_wrapper
-from threading import RLock
+import mimetypes
 from time import time
 from zlib import adler32
-
+from threading import RLock
 from werkzeug.routing import BuildError
+from functools import update_wrapper
 
 try:
     from werkzeug.urls import url_quote

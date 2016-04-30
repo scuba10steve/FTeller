@@ -8,17 +8,17 @@
     :copyright: (c) 2010 by the Jinja Team.
     :license: BSD, see LICENSE for more details.
 """
-from copy import deepcopy
 from itertools import chain
+from copy import deepcopy
 from keyword import iskeyword as is_python_keyword
-
 from jinja2 import nodes
+from jinja2.nodes import EvalContext
+from jinja2.visitor import NodeVisitor
+from jinja2.exceptions import TemplateAssertionError
+from jinja2.utils import Markup, concat, escape
 from jinja2._compat import range_type, text_type, string_types, \
      iteritems, NativeStringIO, imap
-from jinja2.exceptions import TemplateAssertionError
-from jinja2.nodes import EvalContext
-from jinja2.utils import Markup, concat, escape
-from jinja2.visitor import NodeVisitor
+
 
 operators = {
     'eq':       '==',

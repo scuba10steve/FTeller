@@ -9,16 +9,15 @@
     :license: BSD, see LICENSE for more details.
 """
 
-import pickle
 import re
-import unittest
 import uuid
+import flask
+import pickle
+import unittest
 from datetime import datetime
 from threading import Thread
-
-import flask
-from flask._compat import text_type
 from flask.testsuite import FlaskTestCase, emits_module_deprecation_warning
+from flask._compat import text_type
 from werkzeug.exceptions import BadRequest, NotFound
 from werkzeug.http import parse_date
 from werkzeug.routing import BuildError

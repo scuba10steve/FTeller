@@ -8,18 +8,19 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import codecs
-import hashlib
-import hmac
 import os
+import hmac
+import hashlib
 import posixpath
-from itertools import starmap
-from operator import xor
-from random import SystemRandom
+import codecs
 from struct import Struct
+from random import SystemRandom
+from operator import xor
+from itertools import starmap
 
 from werkzeug._compat import range_type, PY2, text_type, izip, to_bytes, \
     string_types, to_native
+
 
 SALT_CHARS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 DEFAULT_PBKDF2_ITERATIONS = 1000

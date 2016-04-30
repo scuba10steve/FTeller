@@ -8,13 +8,13 @@
     :copyright: (c) 2010 by the Jinja Team.
     :license: BSD, see LICENSE for more details.
 """
-import errno
 import re
+import errno
 from collections import deque
 from threading import Lock
-
 from jinja2._compat import text_type, string_types, implements_iterator, \
      url_quote
+
 
 _word_split_re = re.compile(r'(\s+)')
 _punctuation_re = re.compile(
@@ -528,4 +528,4 @@ class Joiner(object):
 
 
 # Imported here because that's where it was in the past
-from markupsafe import Markup, escape
+from markupsafe import Markup, escape, soft_unicode

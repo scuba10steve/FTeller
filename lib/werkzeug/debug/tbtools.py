@@ -8,20 +8,21 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD.
 """
-import codecs
-import inspect
-import json
-import os
 import re
+
+import os
 import sys
+import json
+import inspect
 import traceback
+import codecs
 from tokenize import TokenError
 
+from werkzeug.utils import cached_property, escape
+from werkzeug.debug.console import Console
 from werkzeug._compat import range_type, PY2, text_type, string_types, \
     to_native, to_unicode
-from werkzeug.debug.console import Console
 from werkzeug.filesystem import get_filesystem_encoding
-from werkzeug.utils import cached_property, escape
 
 
 _coding_re = re.compile(br'coding[:=]\s*([-\w.]+)')

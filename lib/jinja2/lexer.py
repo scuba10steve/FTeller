@@ -15,13 +15,14 @@
     :license: BSD, see LICENSE for more details.
 """
 import re
-from collections import deque
-from operator import itemgetter
 
-from jinja2._compat import iteritems, implements_iterator, text_type, \
-     intern, PY2
+from operator import itemgetter
+from collections import deque
 from jinja2.exceptions import TemplateSyntaxError
 from jinja2.utils import LRUCache
+from jinja2._compat import iteritems, implements_iterator, text_type, \
+     intern, PY2
+
 
 # cache for the lexers. Exists in order to be able to have multiple
 # environments with the same lexer

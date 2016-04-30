@@ -2,7 +2,6 @@
 import gc
 import sys
 import unittest
-
 from markupsafe import Markup, escape, escape_silent
 from markupsafe._compat import text_type
 

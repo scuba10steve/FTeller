@@ -9,15 +9,15 @@
     :license: BSD, see LICENSE for more details.
 """
 
-import gc
 import os
+import gc
 import sys
+import flask
 import threading
 import unittest
-
-import flask
-from flask.testsuite import FlaskTestCase
 from werkzeug.exceptions import NotFound
+from flask.testsuite import FlaskTestCase
+
 
 _gc_lock = threading.Lock()
 

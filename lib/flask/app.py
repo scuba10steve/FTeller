@@ -11,30 +11,30 @@
 
 import os
 import sys
-from datetime import timedelta
-from functools import update_wrapper
-from itertools import chain
 from threading import Lock
+from datetime import timedelta
+from itertools import chain
+from functools import update_wrapper
 
 from werkzeug.datastructures import ImmutableDict
+from werkzeug.routing import Map, Rule, RequestRedirect, BuildError
 from werkzeug.exceptions import HTTPException, InternalServerError, \
      MethodNotAllowed, BadRequest
-from werkzeug.routing import Map, Rule, RequestRedirect, BuildError
 
+from .helpers import _PackageBoundObject, url_for, get_flashed_messages, \
+     locked_cached_property, _endpoint_from_view_func, find_package
 from . import json
-from ._compat import reraise, string_types, text_type, integer_types
+from .wrappers import Request, Response
 from .config import ConfigAttribute, Config
 from .ctx import RequestContext, AppContext, _AppCtxGlobals
 from .globals import _request_ctx_stack, request, session, g
-from .helpers import _PackageBoundObject, url_for, get_flashed_messages, \
-     locked_cached_property, _endpoint_from_view_func, find_package
-from .module import blueprint_is_module
 from .sessions import SecureCookieSessionInterface
-from .signals import request_started, request_finished, got_request_exception, \
-     request_tearing_down, appcontext_tearing_down
+from .module import blueprint_is_module
 from .templating import DispatchingJinjaLoader, Environment, \
      _default_template_ctx_processor
-from .wrappers import Request, Response
+from .signals import request_started, request_finished, got_request_exception, \
+     request_tearing_down, appcontext_tearing_down
+from ._compat import reraise, string_types, text_type, integer_types
 
 # a lock used for logger initialization
 _logger_lock = Lock()

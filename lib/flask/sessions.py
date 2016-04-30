@@ -9,16 +9,15 @@
     :license: BSD, see LICENSE for more details.
 """
 
-import hashlib
 import uuid
+import hashlib
 from datetime import datetime
-
-from itsdangerous import URLSafeTimedSerializer, BadSignature
-from werkzeug.datastructures import CallbackDict
 from werkzeug.http import http_date, parse_date
-
+from werkzeug.datastructures import CallbackDict
 from . import Markup, json
 from ._compat import iteritems, text_type
+
+from itsdangerous import URLSafeTimedSerializer, BadSignature
 
 
 def total_seconds(td):

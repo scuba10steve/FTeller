@@ -8,17 +8,18 @@
     :copyright: (c) 2010 by the Jinja Team.
     :license: BSD, see LICENSE for more details.
 """
-import math
 import re
-from itertools import groupby
-from operator import itemgetter
-from random import choice
+import math
 
-from jinja2._compat import imap, string_types, text_type, iteritems
-from jinja2.exceptions import FilterArgumentError
-from jinja2.runtime import Undefined
+from random import choice
+from operator import itemgetter
+from itertools import groupby
 from jinja2.utils import Markup, escape, pformat, urlize, soft_unicode, \
      unicode_urlencode
+from jinja2.runtime import Undefined
+from jinja2.exceptions import FilterArgumentError
+from jinja2._compat import imap, string_types, text_type, iteritems
+
 
 _word_re = re.compile(r'\w+(?u)')
 

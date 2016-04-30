@@ -1,8 +1,10 @@
 # flake8: noqa
 # This whole file is full of lint errors
-import functools
-import operator
+import codecs
 import sys
+import operator
+import functools
+import warnings
 
 try:
     import builtins
@@ -63,7 +65,7 @@ if PY2:
         del cls.__bool__
         return cls
 
-
+    from itertools import imap, izip, ifilter
     range_type = xrange
 
     from StringIO import StringIO

@@ -1,12 +1,12 @@
 import os
-import subprocess
 import sys
-import threading
 import time
+import subprocess
+import threading
 from itertools import chain
 
-from werkzeug._compat import PY2, iteritems, text_type
 from werkzeug._internal import _log
+from werkzeug._compat import PY2, iteritems, text_type
 
 
 def _iter_module_files():
@@ -205,13 +205,7 @@ class WatchdogReloaderLoop(ReloaderLoop):
                     try:
                         watches[path] = observer.schedule(
                             self.event_handler, path, recursive=True)
-                    except OSError as e:
-                        message = str(e)
-
-                        if message != "Path is not a directory":
-                            # Log the exception
-                            _log('error', message)
-
+                    except OSError:
                         # Clear this path from list of watches We don't want
                         # the same error message showing again in the next
                         # iteration.

@@ -139,7 +139,7 @@
 ..\flask\testsuite\test_apps\moduleapp\apps\frontend\__init__.pyc
 ..\flask\testsuite\test_apps\path\installed_package\__init__.pyc
 ..\flask\testsuite\test_apps\subdomaintestmodule\__init__.pyc
-.\
+.
 dependency_links.txt
 not-zip-safe
 PKG-INFO

@@ -10,13 +10,12 @@
 """
 
 import os
+import flask
 import unittest
 from logging import StreamHandler
-
-import flask
-from flask._compat import StringIO, text_type
 from flask.testsuite import FlaskTestCase, catch_warnings, catch_stderr
 from werkzeug.http import parse_cache_control_header, parse_options_header
+from flask._compat import StringIO, text_type
 
 
 def has_encoding(name):

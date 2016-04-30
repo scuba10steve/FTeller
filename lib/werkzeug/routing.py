@@ -96,20 +96,23 @@
     :license: BSD, see LICENSE for more details.
 """
 import difflib
-import posixpath
 import re
 import uuid
+import posixpath
+
 from pprint import pformat
 from threading import Lock
 
+from werkzeug.urls import url_encode, url_quote, url_join
+from werkzeug.utils import redirect, format_string
+from werkzeug.exceptions import HTTPException, NotFound, MethodNotAllowed, \
+     BadHost
+from werkzeug._internal import _get_environ, _encode_idna
 from werkzeug._compat import itervalues, iteritems, to_unicode, to_bytes, \
     text_type, string_types, native_string_result, \
     implements_to_string, wsgi_decoding_dance
-from werkzeug._internal import _get_environ, _encode_idna
 from werkzeug.datastructures import ImmutableDict, MultiDict
-from werkzeug.exceptions import HTTPException, NotFound, MethodNotAllowed
-from werkzeug.urls import url_encode, url_quote, url_join
-from werkzeug.utils import redirect, format_string
+
 
 _rule_re = re.compile(r'''
     (?P<static>[^<]*)                           # static rule data
@@ -1230,7 +1233,10 @@ class Map(object):
             subdomain = self.default_subdomain
         if script_name is None:
             script_name = '/'
-        server_name = _encode_idna(server_name)
+        try:
+            server_name = _encode_idna(server_name)
+        except UnicodeError:
+            raise BadHost()
         return MapAdapter(self, server_name, script_name, subdomain,
                           url_scheme, path_info, default_method, query_args)
 

@@ -28,6 +28,7 @@ if not PY2:
     itervalues = lambda d: iter(d.values())
     iteritems = lambda d: iter(d.items())
 
+    import pickle
     from io import BytesIO, StringIO
     NativeStringIO = StringIO
 
@@ -57,11 +58,13 @@ else:
     itervalues = lambda d: d.itervalues()
     iteritems = lambda d: d.iteritems()
 
+    import cPickle as pickle
     from cStringIO import StringIO as BytesIO, StringIO
     NativeStringIO = BytesIO
 
     exec('def reraise(tp, value, tb=None):\n raise tp, value, tb')
 
+    from itertools import imap, izip, ifilter
     intern = intern
 
     def implements_iterator(cls):

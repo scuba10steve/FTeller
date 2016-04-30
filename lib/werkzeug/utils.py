@@ -10,11 +10,10 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import os
-import pkgutil
 import re
+import os
 import sys
-
+import pkgutil
 try:
     from html.entities import name2codepoint
 except ImportError:
@@ -624,3 +623,6 @@ class ImportStringError(ImportError):
 # DEPRECATED
 # these objects were previously in this module as well.  we import
 # them here for backwards compatibility with old pickles.
+from werkzeug.datastructures import (  # noqa
+    MultiDict, CombinedMultiDict, Headers, EnvironHeaders)
+from werkzeug.http import parse_cookie, dump_cookie  # noqa

@@ -9,12 +9,13 @@
     :license: BSD, see LICENSE for more details.
 """
 
-from werkzeug.exceptions import BadRequest
 from werkzeug.wrappers import Request as RequestBase, Response as ResponseBase
+from werkzeug.exceptions import BadRequest
 
-from . import json
 from .debughelpers import attach_enctype_error_multidict
+from . import json
 from .globals import _request_ctx_stack
+
 
 _missing = object()
 

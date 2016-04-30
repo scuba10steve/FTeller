@@ -9,11 +9,10 @@
     :license: BSD, see LICENSE for more details.
 """
 
-import unittest
-
 import flask
-from flask._compat import text_type
+import unittest
 from flask.testsuite import FlaskTestCase
+from flask._compat import text_type
 
 
 class TestToolsTestCase(FlaskTestCase):

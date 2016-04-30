@@ -10,8 +10,8 @@
     :license: BSD, see LICENSE for more details.
 """
 from jinja2 import nodes
-from jinja2._compat import string_types
 from jinja2.compiler import CodeGenerator
+from jinja2._compat import string_types
 
 
 class TrackingCodeGenerator(CodeGenerator):

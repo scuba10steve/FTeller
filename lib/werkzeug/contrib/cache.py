@@ -56,13 +56,12 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import errno
 import os
 import re
+import errno
 import tempfile
 from hashlib import md5
 from time import time
-
 try:
     import cPickle as pickle
 except ImportError:  # pragma: no cover

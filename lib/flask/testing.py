@@ -11,9 +11,8 @@
 """
 
 from contextlib import contextmanager
-
-from flask import _request_ctx_stack
 from werkzeug.test import Client, EnvironBuilder
+from flask import _request_ctx_stack
 
 try:
     from werkzeug.urls import url_parse

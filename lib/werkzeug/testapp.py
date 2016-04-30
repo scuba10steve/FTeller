@@ -9,14 +9,13 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import base64
 import os
 import sys
-from textwrap import wrap
-
 import werkzeug
-from werkzeug.utils import escape
+from textwrap import wrap
 from werkzeug.wrappers import BaseRequest as Request, BaseResponse as Response
+from werkzeug.utils import escape
+import base64
 
 logo = Response(base64.b64decode('''
 R0lGODlhoACgAOMIAAEDACwpAEpCAGdgAJaKAM28AOnVAP3rAP/////////

@@ -17,14 +17,14 @@
 """
 import os
 import re
-from collections import namedtuple
-
 from werkzeug._compat import text_type, PY2, to_unicode, \
     to_native, implements_to_string, try_coerce_native, \
     normalize_string_tuple, make_literal_wrapper, \
     fix_tuple_repr
 from werkzeug._internal import _encode_idna, _decode_idna
 from werkzeug.datastructures import MultiDict, iter_multi_items
+from collections import namedtuple
+
 
 # A regular expression for what a valid schema looks like
 _scheme_re = re.compile(r'^[a-zA-Z0-9+-.]+$')
@@ -40,8 +40,10 @@ _hextobyte = dict(
 )
 
 
-_URLTuple = fix_tuple_repr(namedtuple('_URLTuple',
-                                      ['scheme', 'netloc', 'path', 'query', 'fragment']))
+_URLTuple = fix_tuple_repr(namedtuple(
+    '_URLTuple',
+    ['scheme', 'netloc', 'path', 'query', 'fragment']
+))
 
 
 class BaseURL(_URLTuple):
@@ -71,7 +73,10 @@ class BaseURL(_URLTuple):
         """
         rv = self.host
         if rv is not None and isinstance(rv, text_type):
-            rv = _encode_idna(rv)
+            try:
+                rv = _encode_idna(rv)
+            except UnicodeError:
+                rv = rv.encode('ascii', 'ignore')
         return to_native(rv, 'ascii', 'ignore')
 
     @property

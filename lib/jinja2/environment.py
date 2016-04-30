@@ -10,28 +10,28 @@
 """
 import os
 import sys
-from functools import reduce
-
 from jinja2 import nodes
-from jinja2._compat import imap, ifilter, string_types, iteritems, \
-     text_type, reraise, implements_iterator, implements_to_string, \
-     get_next, encode_filename, PY2, PYPY
-from jinja2.compiler import generate, CodeGenerator
 from jinja2.defaults import BLOCK_START_STRING, \
      BLOCK_END_STRING, VARIABLE_START_STRING, VARIABLE_END_STRING, \
      COMMENT_START_STRING, COMMENT_END_STRING, LINE_STATEMENT_PREFIX, \
      LINE_COMMENT_PREFIX, TRIM_BLOCKS, NEWLINE_SEQUENCE, \
      DEFAULT_FILTERS, DEFAULT_TESTS, DEFAULT_NAMESPACE, \
      KEEP_TRAILING_NEWLINE, LSTRIP_BLOCKS
-from jinja2.exceptions import TemplateSyntaxError, TemplateNotFound, \
-     TemplatesNotFound, TemplateRuntimeError
 from jinja2.lexer import get_lexer, TokenStream
+from jinja2.parser import Parser
 from jinja2.nodes import EvalContext
 from jinja2.optimizer import optimize
-from jinja2.parser import Parser
+from jinja2.compiler import generate, CodeGenerator
 from jinja2.runtime import Undefined, new_context, Context
+from jinja2.exceptions import TemplateSyntaxError, TemplateNotFound, \
+     TemplatesNotFound, TemplateRuntimeError
 from jinja2.utils import import_string, LRUCache, Markup, missing, \
      concat, consume, internalcode
+from jinja2._compat import imap, ifilter, string_types, iteritems, \
+     text_type, reraise, implements_iterator, implements_to_string, \
+     get_next, encode_filename, PY2, PYPY
+from functools import reduce
+
 
 # for direct template usage we have up to ten living environments
 _spontaneous_environments = LRUCache(10)

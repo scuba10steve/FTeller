@@ -8,23 +8,23 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import mimetypes
+import re
 import os
 import posixpath
-import re
+import mimetypes
+from itertools import chain
+from zlib import adler32
+from time import time, mktime
 from datetime import datetime
 from functools import partial, update_wrapper
-from itertools import chain
-from time import time, mktime
-from zlib import adler32
 
 from werkzeug._compat import iteritems, text_type, string_types, \
     implements_iterator, make_literal_wrapper, to_unicode, to_bytes, \
     wsgi_get_bytes, try_coerce_native, PY2
 from werkzeug._internal import _empty_stream, _encode_idna
-from werkzeug.filesystem import get_filesystem_encoding
 from werkzeug.http import is_resource_modified, http_date
 from werkzeug.urls import uri_to_iri, url_quote, url_parse, url_join
+from werkzeug.filesystem import get_filesystem_encoding
 
 
 def responder(f):
@@ -113,14 +113,20 @@ def host_is_trusted(hostname, trusted_list):
             hostname = hostname.rsplit(':', 1)[0]
         return _encode_idna(hostname)
 
-    hostname = _normalize(hostname)
+    try:
+        hostname = _normalize(hostname)
+    except UnicodeError:
+        return False
     for ref in trusted_list:
         if ref.startswith('.'):
             ref = ref[1:]
             suffix_match = True
         else:
             suffix_match = False
-        ref = _normalize(ref)
+        try:
+            ref = _normalize(ref)
+        except UnicodeError:
+            return False
         if ref == hostname:
             return True
         if suffix_match and hostname.endswith('.' + ref):

@@ -14,14 +14,13 @@ from __future__ import print_function
 
 import os
 import sys
-import unittest
-import warnings
-from contextlib import contextmanager
-from functools import update_wrapper
-
 import flask
-from flask._compat import reraise, StringIO
+import warnings
+import unittest
+from functools import update_wrapper
+from contextlib import contextmanager
 from werkzeug.utils import import_string, find_modules
+from flask._compat import reraise, StringIO
 
 
 def add_to_path(path):

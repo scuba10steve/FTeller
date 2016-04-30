@@ -10,14 +10,15 @@
     :license: BSD, see LICENSE for more details.
 """
 
+import sys
+import hmac
+import zlib
+import time
 import base64
 import hashlib
-import hmac
 import operator
-import sys
-import time
-import zlib
 from datetime import datetime
+
 
 PY2 = sys.version_info[0] == 2
 if PY2:

@@ -9,19 +9,20 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import codecs
 import re
-from functools import update_wrapper
+import codecs
 from io import BytesIO
-from itertools import chain, repeat, tee
 from tempfile import TemporaryFile
+from itertools import chain, repeat, tee
+from functools import update_wrapper
 
 from werkzeug._compat import to_native, text_type
-from werkzeug.datastructures import Headers, FileStorage, MultiDict
-from werkzeug.http import parse_options_header
 from werkzeug.urls import url_decode_stream
 from werkzeug.wsgi import make_line_iter, \
     get_input_stream, get_content_length
+from werkzeug.datastructures import Headers, FileStorage, MultiDict
+from werkzeug.http import parse_options_header
+
 
 #: an iterator that yields empty strings
 _empty_string_iter = repeat('')

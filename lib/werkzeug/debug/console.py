@@ -8,13 +8,14 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD.
 """
-import code
 import sys
+import code
 from types import CodeType
 
-from werkzeug.debug.repr import debug_repr, dump, helper
-from werkzeug.local import Local
 from werkzeug.utils import escape
+from werkzeug.local import Local
+from werkzeug.debug.repr import debug_repr, dump, helper
+
 
 _local = Local()
 

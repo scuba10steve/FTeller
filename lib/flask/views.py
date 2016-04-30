@@ -8,8 +8,9 @@
     :copyright: (c) 2011 by Armin Ronacher.
     :license: BSD, see LICENSE for more details.
 """
-from ._compat import with_metaclass
 from .globals import request
+from ._compat import with_metaclass
+
 
 http_method_funcs = frozenset(['get', 'post', 'head', 'options',
                                'delete', 'put', 'trace', 'patch'])

@@ -10,13 +10,13 @@
 """
 
 import os
-import pkgutil
 import sys
+import flask
+import pkgutil
 import unittest
 from contextlib import contextmanager
-
-import flask
 from flask.testsuite import FlaskTestCase
+
 
 # config keys used for the ConfigTestCase
 TEST_KEY = 'foo'

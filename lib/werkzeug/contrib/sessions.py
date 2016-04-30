@@ -51,21 +51,22 @@ r"""
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import os
 import re
+import os
 import tempfile
-from hashlib import sha1
 from os import path
-from pickle import dump, load, HIGHEST_PROTOCOL
-from random import random
 from time import time
+from random import random
+from hashlib import sha1
+from pickle import dump, load, HIGHEST_PROTOCOL
 
-from werkzeug._compat import PY2, text_type
 from werkzeug.datastructures import CallbackDict
-from werkzeug.filesystem import get_filesystem_encoding
-from werkzeug.posixemulation import rename
 from werkzeug.utils import dump_cookie, parse_cookie
 from werkzeug.wsgi import ClosingIterator
+from werkzeug.posixemulation import rename
+from werkzeug._compat import PY2, text_type
+from werkzeug.filesystem import get_filesystem_encoding
+
 
 _sha1_re = re.compile(r'^[a-f0-9]{40}$')
 

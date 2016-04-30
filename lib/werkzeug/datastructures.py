@@ -8,17 +8,18 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
+import re
 import codecs
 import mimetypes
-import re
 from copy import deepcopy
 from itertools import repeat
 
+from werkzeug._internal import _missing, _empty_stream
 from werkzeug._compat import iterkeys, itervalues, iteritems, iterlists, \
     PY2, text_type, integer_types, string_types, make_literal_wrapper, \
     to_native
-from werkzeug._internal import _missing, _empty_stream
 from werkzeug.filesystem import get_filesystem_encoding
+
 
 _locale_delim_re = re.compile(r'[_-]')
 
@@ -2159,7 +2160,7 @@ class ETags(object):
             return '*'
         return ', '.join(
             ['"%s"' % x for x in self._strong] +
-            ['w/"%s"' % x for x in self._weak]
+            ['W/"%s"' % x for x in self._weak]
         )
 
     def __call__(self, etag=None, data=None, include_weak=False):

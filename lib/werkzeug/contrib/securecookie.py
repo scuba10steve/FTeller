@@ -88,18 +88,18 @@ r"""
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import base64
 import pickle
-from hashlib import sha1 as _default_hash
+import base64
 from hmac import new as hmac
 from time import time
+from hashlib import sha1 as _default_hash
 
 from werkzeug._compat import iteritems, text_type
-from werkzeug._compat import to_native
+from werkzeug.urls import url_quote_plus, url_unquote_plus
 from werkzeug._internal import _date_to_unix
 from werkzeug.contrib.sessions import ModificationTrackingDict
 from werkzeug.security import safe_str_cmp
-from werkzeug.urls import url_quote_plus, url_unquote_plus
+from werkzeug._compat import to_native
 
 
 class UnquoteError(Exception):

@@ -13,11 +13,10 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD.
 """
-import codecs
-import re
 import sys
+import re
+import codecs
 from traceback import format_exception_only
-
 try:
     from collections import deque
 except ImportError:  # pragma: no cover

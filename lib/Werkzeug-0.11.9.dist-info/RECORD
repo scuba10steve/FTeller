@@ -52,6 +52,7 @@ Werkzeug-0.11.9.dist-info/RECORD,,
 Werkzeug-0.11.9.dist-info/top_level.txt,sha256=QRyj2VjwJoQkrwjwFIOlB8Xg3r9un0NtqVHQF-15xaw,9
 Werkzeug-0.11.9.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
 Werkzeug-0.11.9.dist-info/METADATA,sha256=aW4j7GGJ1ZJfvmq6bGkePD3QlBXgmTEuTBjDncU0h4w,2599
+Werkzeug-0.11.9.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
 werkzeug/_reloader.pyc,,
 werkzeug/filesystem.pyc,,
 werkzeug/contrib/testtools.pyc,,

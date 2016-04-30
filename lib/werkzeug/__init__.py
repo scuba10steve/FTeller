@@ -14,13 +14,13 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import sys
 from types import ModuleType
+import sys
 
 from werkzeug._compat import iteritems
 
 # the version.  Usually set automatically by a script.
-__version__ = '0.11'
+__version__ = '0.11.9'
 
 
 # This import magic raises concerns quite often which is why the implementation

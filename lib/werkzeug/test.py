@@ -8,13 +8,13 @@
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import mimetypes
 import sys
-from io import BytesIO
-from itertools import chain
-from random import random
-from tempfile import TemporaryFile
+import mimetypes
 from time import time
+from random import random
+from itertools import chain
+from tempfile import TemporaryFile
+from io import BytesIO
 
 try:
     from urllib2 import Request as U2Request

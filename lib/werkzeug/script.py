@@ -72,11 +72,10 @@ r'''
 '''
 from __future__ import print_function
 
-import getopt
-import inspect
 import sys
+import inspect
+import getopt
 from os.path import basename
-
 from werkzeug._compat import iteritems
 
 

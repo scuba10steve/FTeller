@@ -14,18 +14,21 @@ __version__ = '0.10'
 
 # utilities we import from Werkzeug and Jinja2 that are unused
 # in the module but are exported as public interface.
+from werkzeug.exceptions import abort
+from werkzeug.utils import redirect
+from jinja2 import Markup, escape
 
 from .app import Flask, Request, Response
-from .blueprints import Blueprint
 from .config import Config
-from .ctx import has_request_context, has_app_context, \
-     after_this_request, copy_current_request_context
-from .globals import current_app, g, request, session, _request_ctx_stack, \
-     _app_ctx_stack
 from .helpers import url_for, flash, send_file, send_from_directory, \
     get_flashed_messages, get_template_attribute, make_response, safe_join, \
     stream_with_context
+from .globals import current_app, g, request, session, _request_ctx_stack, \
+     _app_ctx_stack
+from .ctx import has_request_context, has_app_context, \
+     after_this_request, copy_current_request_context
 from .module import Module
+from .blueprints import Blueprint
 from .templating import render_template, render_template_string
 
 # the signals

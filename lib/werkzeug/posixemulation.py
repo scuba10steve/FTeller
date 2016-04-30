@@ -17,14 +17,15 @@ r"""
     :copyright: (c) 2014 by the Werkzeug Team, see AUTHORS for more details.
     :license: BSD, see LICENSE for more details.
 """
-import errno
-import os
-import random
 import sys
+import os
+import errno
 import time
+import random
 
 from ._compat import to_unicode
 from .filesystem import get_filesystem_encoding
+
 
 can_rename_open_file = False
 if os.name == 'nt':  # pragma: no cover
