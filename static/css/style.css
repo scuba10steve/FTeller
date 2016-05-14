@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	background-image:url(../images/texture.jpg);
+	margin: 20px;
+}
+nav
+{
+	position: relative;
+	float:left;
+	width: 15%;
+	min-width:110px;
+}
+h1
+{
+	/*position:absolute;*/
+	width: 90%;
+	color:#F60;
+	text-shadow: 2px 2px #993300;
+	width:80%;
+}
+h1:hover, h2:hover, h3:hover
+{
+	color:#FF0000;
+	/* CSS3 Transform Effect */
+	-ms-transform: scale(1.2);		   /* Internet Explorer */
+	-webkit-transform: scale(1.2);     /* Safari & Chrome */
+	-moz-transform: scale(1.2);        /* Firefox */
+	-o-transform: scale(1.2);          /* Opera */
+	/* Transform Effect */
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color:#000000;
+	/* Rounded corner effect */
+	border-radius:8px;
+	/* Shadow effect */
+	box-shadow: 7px 7px 5px #006699;
+	opacity:0.7;
+}
+h2
+{
+	text-align:center;
+	width:10%;
+	color:#F60;
+	text-shadow: 1px 1px #993300;
+	position:relative;
+}
+h3
+{
+	position:relative;
+	width:8%;
+	color:#F60;
+	text-shadow: 1px 1px #993300;	
+}
+a
+{
+	color:#309;
+}
+a:hover
+{
+	color:#930;
+}
+.footer
+{
+	bottom:0;
+	position:relative;
+	padding:5px;
+	width:80%;
+}
+.content
+{
+	padding:15px;
+	position:relative;
+	width:40%;
+	min-width:400px;
+}
+.featured
+{
+	display:block;
+	width:40%
+	padding:15px;
+}
+.side
+{
+	display:table-column;
+	position:relative;
+	float:right;
+	vertical-align:top;
+	background-position:center;
+	width:12%;
+	min-width:250px;
+}
+.contentbox
+{
+	background-color:#090;
+	box-shadow: 8px 8px 10px #006633;
+	border-radius: 5px 5px;
+}
+.picbox
+{
+	background-color:#090;
+	box-shadow: 8px 8px 10px #303;
+	border-radius: 5px 5px;
+}
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.spacer
+{
+	width:auto;
+	height:15px;
+}
+.tumblr
+{
+	background-color:#060;
+	border:none;
+	box-shadow: 8px 8px 10px #003333;
+	border-radius: 5px 5px;
+	min-height:200px;
+}

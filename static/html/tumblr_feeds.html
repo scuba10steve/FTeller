@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tumbo 1.0 - Show Tumblr blog feeds on your website - Jquery plugin</title>
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	
+	<script type="text/javascript">
+	
+	var tumblrBlogLink="http://scuba10steve.tumblr.com";
+	var tumblrApiKey="8ASLvMKD6sophkdkrqLXm6P1Ff854wzJjmdflqAvRGSFYGDbUx";
+		
+	//optional parameters-----------------------------------------------
+	
+	var tumboWidgetWidth = 350;
+	var tumboWidgetHeight = 400;
+	
+	function goClicked() {
+		$('#tumbo').empty().append(' loading ...');
+		tumblrBlogLink=$('#tumblrBlogLink').val();
+		
+		loadTumbo();
+	}
+	
+	</script>
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+		
+	</style>
+
+	</head>
+  <body>
+	
+		<h1>Tumbo 1.0 - Show Tumblr feeds on your website - Jquery plugin</h1>
+		Enter your Tumblr Blog Url: <span style="color:red;">(Ex: http://codehandling.tumblr.com)</span><br/>
+		<input type="text" id="tumblrBlogLink"/>&nbsp;
+		<input type="button" value="Go" onclick="goClicked();"/>
+		<br/>
+		<br/>
+		
+		<div id="tumbo">
+		</div>
+
+		<script src="./tumbo.min.js"></script>
+
+  </body>
+</html>
+
+
+
