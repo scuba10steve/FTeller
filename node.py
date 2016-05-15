@@ -8,9 +8,9 @@ class Node(object):
 
     def getChild(self, direction):
         if (direction > 0):
-            return left
+            return self.left
         else:
-            return right
+            return self.right
 
     def getItem(self):
         return self.item
