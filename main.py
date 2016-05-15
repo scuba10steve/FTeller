@@ -4,6 +4,7 @@
 from flask import Flask, redirect, url_for
 from node import Node
 import logging
+
 app = Flask(__name__)
 # Note: We don't need to call run() since our application is embedded within
 # the App Engine WSGI application server.
@@ -15,10 +16,10 @@ def hello():
     return 'Hello World!'
 
 
-@app.route('/index.html')
+@app.route('/me/index.html')
 def index():
     """Return the index page"""
-    return redirect(url_for('static', filename='index.html'))
+    return redirect(url_for('static', filename='mypage/index.html'))
 
 @app.errorhandler(404)
 def page_not_found(e):
