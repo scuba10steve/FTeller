@@ -1,127 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8becd33-8409-4ef9-8792-8de36e9c1e7c" name="Default" comment="Added empty structure&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.10.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-0.23.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.11.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/markupsafe/_speedups.so" afterPath="" />
+    <list default="true" id="e8becd33-8409-4ef9-8792-8de36e9c1e7c" name="Default" comment="Changed stuff&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/lib/Flask-0.10-py2.7.egg-info/installed-files.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/Jinja2-2.8.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/lib/MarkupSafe-0.23-py2.7.egg-info/installed-files.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/Werkzeug-0.11.9.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/__init__.py" afterPath="$PROJECT_DIR$/lib/flask/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/_compat.py" afterPath="$PROJECT_DIR$/lib/flask/_compat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/app.py" afterPath="$PROJECT_DIR$/lib/flask/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/config.py" afterPath="$PROJECT_DIR$/lib/flask/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/exthook.py" afterPath="$PROJECT_DIR$/lib/flask/exthook.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/globals.py" afterPath="$PROJECT_DIR$/lib/flask/globals.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/helpers.py" afterPath="$PROJECT_DIR$/lib/flask/helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/json.py" afterPath="$PROJECT_DIR$/lib/flask/json.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/sessions.py" afterPath="$PROJECT_DIR$/lib/flask/sessions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/templating.py" afterPath="$PROJECT_DIR$/lib/flask/templating.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testing.py" afterPath="$PROJECT_DIR$/lib/flask/testing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/__init__.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/appctx.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/appctx.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/basic.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/basic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/blueprints.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/blueprints.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/config.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/deprecations.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/deprecations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/examples.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/examples.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/ext.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/ext.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/helpers.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/regression.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/regression.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/reqctx.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/reqctx.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/signals.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/signals.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/subclassing.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/subclassing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/templating.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/templating.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/config_module_app.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/config_module_app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/config_package_app/__init__.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/config_package_app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flask_broken/__init__.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/test_apps/flask_broken/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/testing.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/testing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/testsuite/views.py" afterPath="$PROJECT_DIR$/lib/flask/testsuite/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/views.py" afterPath="$PROJECT_DIR$/lib/flask/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flask/wrappers.py" afterPath="$PROJECT_DIR$/lib/flask/wrappers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/installed-files.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/itsdangerous.py" afterPath="$PROJECT_DIR$/lib/itsdangerous.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/_compat.py" afterPath="$PROJECT_DIR$/lib/jinja2/_compat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/bccache.py" afterPath="$PROJECT_DIR$/lib/jinja2/bccache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/compiler.py" afterPath="$PROJECT_DIR$/lib/jinja2/compiler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/debug.py" afterPath="$PROJECT_DIR$/lib/jinja2/debug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/defaults.py" afterPath="$PROJECT_DIR$/lib/jinja2/defaults.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/environment.py" afterPath="$PROJECT_DIR$/lib/jinja2/environment.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/ext.py" afterPath="$PROJECT_DIR$/lib/jinja2/ext.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/filters.py" afterPath="$PROJECT_DIR$/lib/jinja2/filters.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/lexer.py" afterPath="$PROJECT_DIR$/lib/jinja2/lexer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/loaders.py" afterPath="$PROJECT_DIR$/lib/jinja2/loaders.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/meta.py" afterPath="$PROJECT_DIR$/lib/jinja2/meta.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/nodes.py" afterPath="$PROJECT_DIR$/lib/jinja2/nodes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/parser.py" afterPath="$PROJECT_DIR$/lib/jinja2/parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/runtime.py" afterPath="$PROJECT_DIR$/lib/jinja2/runtime.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/sandbox.py" afterPath="$PROJECT_DIR$/lib/jinja2/sandbox.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/tests.py" afterPath="$PROJECT_DIR$/lib/jinja2/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jinja2/utils.py" afterPath="$PROJECT_DIR$/lib/jinja2/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/markupsafe/__init__.py" afterPath="$PROJECT_DIR$/lib/markupsafe/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/markupsafe/tests.py" afterPath="$PROJECT_DIR$/lib/markupsafe/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/__init__.py" afterPath="$PROJECT_DIR$/lib/werkzeug/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/_compat.py" afterPath="$PROJECT_DIR$/lib/werkzeug/_compat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/_internal.py" afterPath="$PROJECT_DIR$/lib/werkzeug/_internal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/_reloader.py" afterPath="$PROJECT_DIR$/lib/werkzeug/_reloader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/atom.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/atom.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/cache.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/cache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/fixers.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/fixers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/jsrouting.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/jsrouting.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/lint.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/lint.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/profiler.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/profiler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/securecookie.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/securecookie.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/sessions.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/sessions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/testtools.py" afterPath="$PROJECT_DIR$/lib/werkzeug/contrib/testtools.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/datastructures.py" afterPath="$PROJECT_DIR$/lib/werkzeug/datastructures.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/__init__.py" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/console.py" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/console.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/repr.py" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/repr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/tbtools.py" afterPath="$PROJECT_DIR$/lib/werkzeug/debug/tbtools.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/exceptions.py" afterPath="$PROJECT_DIR$/lib/werkzeug/exceptions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/formparser.py" afterPath="$PROJECT_DIR$/lib/werkzeug/formparser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/http.py" afterPath="$PROJECT_DIR$/lib/werkzeug/http.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/local.py" afterPath="$PROJECT_DIR$/lib/werkzeug/local.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/posixemulation.py" afterPath="$PROJECT_DIR$/lib/werkzeug/posixemulation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/routing.py" afterPath="$PROJECT_DIR$/lib/werkzeug/routing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/script.py" afterPath="$PROJECT_DIR$/lib/werkzeug/script.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/security.py" afterPath="$PROJECT_DIR$/lib/werkzeug/security.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/serving.py" afterPath="$PROJECT_DIR$/lib/werkzeug/serving.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/test.py" afterPath="$PROJECT_DIR$/lib/werkzeug/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/testapp.py" afterPath="$PROJECT_DIR$/lib/werkzeug/testapp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/urls.py" afterPath="$PROJECT_DIR$/lib/werkzeug/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/useragents.py" afterPath="$PROJECT_DIR$/lib/werkzeug/useragents.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/utils.py" afterPath="$PROJECT_DIR$/lib/werkzeug/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/wrappers.py" afterPath="$PROJECT_DIR$/lib/werkzeug/wrappers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/werkzeug/wsgi.py" afterPath="$PROJECT_DIR$/lib/werkzeug/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/mypage/index.html" afterPath="$PROJECT_DIR$/static/mypage/index.html" />
     </list>
     <ignored path="fteller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,8 +37,82 @@
       <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="544">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <marker date="1463354230596" expanded="true" signature="802:1239" placeholder="m" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#95#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/mypage/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="os-detect.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/mypage/js/os-detect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -166,31 +122,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1139">
-                <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+              <first_editor relative-caret-position="527">
+                <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -206,7 +142,13 @@
       <list>
         <option value="$PROJECT_DIR$/static/index.html" />
         <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/input" />
+        <option value="$PROJECT_DIR$/questions.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/node.py" />
+        <option value="$PROJECT_DIR$/logger.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/static/mypage/index.html" />
       </list>
     </option>
   </component>
@@ -260,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,16 +222,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fteller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fteller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mypage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fteller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fteller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mypage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appengine-guestbook-python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helloworld" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="246" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="259" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="261" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="775" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="304" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="303" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="305" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="629" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -296,7 +294,146 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/main.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/logger.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/google50afc8fe2b483a6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/html/about.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/html/google50afc8fe2b483a6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/html/resume.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/html/tumblr_feeds.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/images/avengers_wp11_1920x1080.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/images/fbook.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/images/pi.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/images/pic.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/images/texture.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/js/os-detect.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/mypage/js/tumbo.min.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/google50afc8fe2b483a6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/html/StevenTompkinsResume.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/html/about.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/html/google50afc8fe2b483a6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/html/tumblr_feeds.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/avengers_wp11_1920x1080.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/fbook.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pi.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/texture.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/os-detect.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/tumbo.min.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Python.questions">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,6 +464,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fteller" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appengine_config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="questions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fteller" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/questions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -465,14 +619,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.appengine_config" />
+      <item index="2" class="java.lang.String" itemvalue="Python.questions" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.appengine_config" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.questions" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.appengine_config" />
       </list>
     </recent_temporary>
   </component>
@@ -504,30 +660,58 @@
       <option name="project" value="LOCAL" />
       <updated>1461813447384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed stuff&#10;">
+      <created>1461974564719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1461974564719</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added node object to create a tree based on questions and answers.">
+      <created>1463329680771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1463329680771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added logging capability, also fixed a couple of errors with Node">
+      <created>1463353129265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1463353129265</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added logging utility to utilize python logging, modified root mapping to redirect to index&#10;">
+      <created>1463361708751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1463361708751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.49765626" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5015625" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4984375" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27947932" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42113322" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.49765626" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4984375" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -545,10 +729,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added empty structure&#10;" />
     <MESSAGE value="Added static files&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added static files&#10;&#10;" />
+    <MESSAGE value="Changed stuff&#10;" />
+    <MESSAGE value="Added node object to create a tree based on questions and answers." />
+    <MESSAGE value="Added logging capability, also fixed a couple of errors with Node" />
+    <MESSAGE value="Added logging utility to utilize python logging, modified root mapping to redirect to index&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logging utility to utilize python logging, modified root mapping to redirect to index&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/questions.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -564,14 +761,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1463354230596" expanded="true" signature="802:1239" placeholder="m" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="e#95#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -584,19 +793,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.playground">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -608,18 +812,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463354230596" expanded="true" signature="802:1239" placeholder="m" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="e#95#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
+    <entry file="file://$PROJECT_DIR$/appengine_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -627,17 +851,29 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1139">
-            <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <first_editor relative-caret-position="527">
+            <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463354230596" expanded="true" signature="802:1239" placeholder="m" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,6 +881,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#95#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.playground">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <marker date="1463354230596" expanded="true" signature="802:1239" placeholder="m" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="2736" column="8" selection-start-line="2736" selection-start-column="8" selection-end-line="2736" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appengine_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#95#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/mypage/js/os-detect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/mypage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
