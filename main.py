@@ -13,13 +13,17 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return index()
+    return appindex()
 
 
 @app.route('/me/index.html')
 def index():
-    """Return the index page"""
+    """Return the index page for me"""
     return redirect(url_for('static', filename='mypage/index.html'))
+
+@app.route('/app/index.html')
+def appindex():
+    return redirect(url_for('static', filename='apppage/index.html'))
 
 @app.errorhandler(404)
 def page_not_found(e):
