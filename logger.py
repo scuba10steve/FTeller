@@ -23,5 +23,5 @@ class Logger(object):
     def info(self, msg):
         logging.info(msg, logging.INFO)
 
-    def debug(self):
+    def debug(self, msg):
         logging.debug(msg, logging.DEBUG)
