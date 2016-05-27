@@ -2,7 +2,7 @@
 
 # Import the Flask Framework
 from flask import Flask, redirect, url_for
-from node import Node
+from utils.node import Node
 import json
 import logging
 
@@ -32,7 +32,7 @@ def print_store():
     logging.info("storefile: {}".format(str(storefile)))
     # store = json.loads(str(storefile))
     # return store
-    return ""
+    return str(storefile)
 
 @app.errorhandler(404)
 def page_not_found(e):
