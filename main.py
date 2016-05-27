@@ -3,6 +3,7 @@
 # Import the Flask Framework
 from flask import Flask, redirect, url_for
 from node import Node
+import json
 import logging
 
 app = Flask(__name__)
@@ -24,6 +25,14 @@ def index():
 @app.route('/app/index.html')
 def appindex():
     return redirect(url_for('static', filename='apppage/index.html'))
+
+@app.route('/app/show_store')
+def print_store():
+    storefile = open('store/store.json', 'r').read()
+    logging.info("storefile: {}".format(str(storefile)))
+    # store = json.loads(str(storefile))
+    # return store
+    return ""
 
 @app.errorhandler(404)
 def page_not_found(e):
