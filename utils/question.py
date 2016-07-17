@@ -1,13 +1,12 @@
 import json
 import os.path
 
-file = None
-
 class Question(object):
     """docstring for Question"""
-    def __init__(self, question):
+    def __init__(self, question, file):
         super(Question, self).__init__()
         self.question = question
+        self.file = file
 
     def get_question(self, direction):
         return self.question
@@ -17,5 +16,5 @@ class Question(object):
 
     def parse_file(self, filename):
         assert os.path.isfile(filename)
-        global file = open(filename, 'r')
-        return str(file.read())
+        self.file = open(filename, 'r')
+        return str(self.file.read())

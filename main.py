@@ -1,8 +1,8 @@
 """`main` is the top level module for your Flask application."""
 
 # Import the Flask Framework
-from flask import Flask, redirect, url_for
-from utils.node import Node
+from flask import Flask, redirect, url_for, request
+from utils.question import Question
 import json
 import logging
 
@@ -34,6 +34,14 @@ def print_store():
     # return store
     return str(storefile)
 
+@app.route('/question', methods=['POST'])
+def question():
+    if (request.data != None):
+        process(request.data)
+    else:
+        raise Exception
+    return ""
+
 @app.errorhandler(404)
 def page_not_found(e):
     """Return a custom 404 error."""
@@ -46,3 +54,7 @@ def application_error(e):
     """Return a custom 500 error."""
     logging.error("Server problem {}".format(e))
     return 'Sorry, unexpected error: {}'.format(e), 500
+
+def process(object):
+    logging.info(str(object))
+    q = Question()
