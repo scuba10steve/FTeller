@@ -26,21 +26,37 @@ def index():
 def appindex():
     return redirect(url_for('static', filename='apppage/index.html'))
 
-@app.route('/app/show_store')
-def print_store():
-    storefile = open('store/store.json', 'r').read()
-    logging.info("storefile: {}".format(str(storefile)))
-    # store = json.loads(str(storefile))
-    # return store
-    return str(storefile)
+# @app.route('/app/show_store')
+# def print_store():
+#     storefile = open('store/store.json', 'r').read()
+#     logging.info("storefile: {}".format(str(storefile)))
+#     # store = json.loads(str(storefile))
+#     # return store
+#     return str(storefile)
 
-@app.route('/question', methods=['POST'])
-def question():
+@app.route('/answer', methods=['POST'])
+def answer():
     if (request.data != None):
         process(request.data)
     else:
         raise Exception
     return ""
+
+@app.route('/questions')
+def questions():
+    logging.info('retrieving questions...')
+    storefile = open('store/store.json', 'r').read()
+    questions_dict = json.loads(str(storefile))
+
+    qs = []
+
+    for item in questions_dict['questions']:
+        # logging.info("item: {}".format(item))
+        qs.append(item)
+
+    # return str(qs)
+
+    return json.dumps(qs, separators=[',', ':'])
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -57,4 +73,4 @@ def application_error(e):
 
 def process(object):
     logging.info(str(object))
-    q = Question()
+    # q = Question()
